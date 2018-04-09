@@ -10,10 +10,24 @@ app.get('/',function(req,res){
 	res.render('index.ejs');
   //It will find and locate index.html from View or Scripts
 });
+
+app.get('/pure',function(req,res){
+	// res.sendFile('index.html');
+	res.render('pure.ejs');
+  //It will find and locate index.html from View or Scripts
+});
+app.get('/slider',function(req,res){
+	// res.sendFile('index.html');
+	res.render('slider.ejs');
+  //It will find and locate index.html from View or Scripts
+});
 // app.listen(3001, process.env.IP, function() {
 // app.listen(3001, process.env.IP, function() {
-app.listen(process.env.PORT, process.env.IP, function() {
-	var appConsoleMsg = 'YelpCamp server has started: ';
-	appConsoleMsg += process.env.IP + ':' + process.env.PORT;
+// var portSettings = process.env.PORT
+var portSettings = 8080;
+
+app.listen(portSettings, process.env.IP, function() {
+	var appConsoleMsg = 'Hemsidan startad: ';
+	appConsoleMsg += process.env.IP + ':' + portSettings;
 	console.log(appConsoleMsg);
 });
