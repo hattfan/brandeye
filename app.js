@@ -23,8 +23,8 @@ app.get('/slider',function(req,res){
 });
 // app.listen(3001, process.env.IP, function() {
 // app.listen(3001, process.env.IP, function() {
-var portSettings = process.env.PORT
-// var portSettings = 8080;
+// var portSettings = process.env.PORT
+var portSettings = 8080;
 
 app.listen(portSettings, process.env.IP, function() {
 	var appConsoleMsg = 'Hemsidan startad: ';

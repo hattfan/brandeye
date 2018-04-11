@@ -141,9 +141,14 @@ section {
   background-color: #eeeeee;
 }
 
-#info {
-  background-color: white;
-  padding: 10px;
-  border:1px grey solid;
-  border-radius: 5px;
+#logo  {
+  position: absolute;
+  z-index: 10;
+  top: 10%;
+  left: 5%;
+  max-width: 7%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  opacity: 50%;
+  min-width: 100px;
 }
