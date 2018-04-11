@@ -136,3 +136,14 @@ section {
 .card {
   margin: 5px;
 }
+
+#pure {
+  background-color: #eeeeee;
+}
+
+#info {
+  background-color: white;
+  padding: 10px;
+  border:1px grey solid;
+  border-radius: 5px;
+}
