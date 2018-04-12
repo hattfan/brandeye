@@ -18,15 +18,22 @@ app.get('/slider',function(req,res){
 app.get('/contact',function(req,res){
 	res.render('contact.ejs');
 });
-
 app.get('/news',function(req,res){
 	res.render('news.ejs');
 });
 
+app.get('/rena',function(req,res){
+	res.render('rena.ejs');
+});
+
+app.get('/recept',function(req,res){
+	res.render('recept.ejs');
+});
+
 // app.listen(3001, process.env.IP, function() {
 // app.listen(3001, process.env.IP, function() {
-var portSettings = process.env.PORT
-// var portSettings = 3030;
+// var portSettings = process.env.PORT
+var portSettings = 3030;
 
 app.listen(portSettings, process.env.IP, function() {
 	var appConsoleMsg = 'Hemsidan startad: ';
