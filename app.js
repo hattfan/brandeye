@@ -6,25 +6,27 @@ app.use(express.static(__dirname + '/script'));
 //Store all JS and CSS in Scripts folder.
 
 app.get('/',function(req,res){
-	// res.sendFile('index.html');
 	res.render('index.ejs');
-  //It will find and locate index.html from View or Scripts
 });
 
 app.get('/pure',function(req,res){
-	// res.sendFile('index.html');
 	res.render('pure.ejs');
-  //It will find and locate index.html from View or Scripts
 });
 app.get('/slider',function(req,res){
-	// res.sendFile('index.html');
 	res.render('slider.ejs');
-  //It will find and locate index.html from View or Scripts
 });
+app.get('/contact',function(req,res){
+	res.render('contact.ejs');
+});
+
+app.get('/news',function(req,res){
+	res.render('news.ejs');
+});
+
 // app.listen(3001, process.env.IP, function() {
 // app.listen(3001, process.env.IP, function() {
-var portSettings = process.env.PORT
-// var portSettings = 8080;
+// var portSettings = process.env.PORT
+var portSettings = 3030;
 
 app.listen(portSettings, process.env.IP, function() {
 	var appConsoleMsg = 'Hemsidan startad: ';

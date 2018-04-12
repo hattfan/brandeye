@@ -51,8 +51,9 @@ h6 {
 }
 
 section {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
+
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -61,7 +62,6 @@ section {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
-  position: fixed;
 }
 
 #mainNav .navbar-brand {
@@ -91,6 +91,11 @@ section {
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #F05F40 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
 }
 
@@ -128,50 +133,15 @@ section {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-.card {
-  margin: 5px;
+a {
+  color: black;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
 }
 
-#pure {
-  background-color: #eeeeee;
-}
-
-#logo  {
-  position: absolute;
-  z-index: 10;
-  top: 10%;
-  left: 5%;
-  max-width: 7%;
-  height: auto;
-  width: auto\9; /* ie8 */
-  opacity: 50%;
-  min-width: 100px;
-}
-
-.carousel-caption {
-  top: 0;
-  bottom: auto;
-}
-
-body { 
-  padding-top: 55px; 
-}
-
-html, body {
-    min-height: 100%;
-}
-
-footer {
-  /* position: absolute; */
-  /* left: 0; */
-  /* bottom: 0; */
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
-}
-
-.fb-page {
-  margin: 0 auto;
-
+#henrik {
+  border-radius: 50%;
+  width: 50%;
 }
