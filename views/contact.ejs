@@ -1,77 +1,73 @@
 <% include ./partials/cssLinks %>
   <%include ./partials/header %>
     <link href="css/contact.css" rel="stylesheet">
+    <link href="css/map.css" rel="stylesheet">
     <section id="contact">
       <!-- TEST CONTACT -->
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header">
-                <h2>
-                  <strong>Adress</strong>
-                </h2>
+        <div class="card-deck">
+
+          <div class="card">
+
+            <div class="card-header">
+              <h2>Adress</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                Brandeye Sales & Partner
+                <br> Ladugatan 13
+                <br> 25448 Helsingborg</p>
+              <p class="card-text">
+                <small class="text-muted">Hitta oss</small>
+              </p>
+                  <div id="map1" class="map"></div>
+            </div>
+          </div>
+
+          <div class="card">
+
+            <div class="card-header">
+              <h2>Kontakta oss</h2>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Vid frågor om våra produkter och eventuella kontakter, hör av er till oss genom mail eller telefon. Vi svarar
+                på alla frågor!</p>
+              <div class="ml-auto text-center">
+                <a href="tel:+46739173488">
+                  <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+                </a>
+                <br>
+                <!-- <p>+46 (0)73 917 3488</p> -->
+                <a href="tel:+46739173488">+46 (0)73 917 3488</a>
+                <br>
+                <hr>
               </div>
-              <div>
-                <div class="card-body bg-grey">
-                  Brandeye Sales & Partner
-                  <br> Ladugatan 13
-                  <br> 25448 Helsingborg
-                </div>
-              </div>
-              <div id="map1" class="map">
+              <div class="mr-auto text-center">
+                <a href="mailto:henrik@brandeyesales.com">
+                  <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+                </a>
+                <p>
+                  <a href="mailto:henrik@brandeyesales.com">Henrik Mauritzon</a>
+                </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header">
-                <h2>
-                  <strong>Kontakta oss</strong>
-                </h2>
-              </div>
-              <div class="card-body">
-                <p class="mb-5">Vid frågor om våra produkter och eventuella kontakter, hör av er till oss genom mail eller telefon. Vi svarar
-                  på alla frågor!
-                  <div class="ml-auto text-center">
-                    <a href="tel:+46739173488">
-                      <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-                    </a>
-                    <br>
-                    <!-- <p>+46 (0)73 917 3488</p> -->
-                    <a href="tel:+46739173488">+46 (0)73 917 3488</a>
-                    <br>
-                    <hr>
-                  </div>
-                  <div class="mr-auto text-center">
-                    <a href="mailto:henrik@brandeyesales.com">
-                      <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-                    </a>
-                    <p>
-                      <a href="mailto:henrik@brandeyesales.com">Henrik Mauritzon</a>
-                    </p>
-                  </div>
-              </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h2>Teamet</h2>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header">
-                <h2>
-                  <strong>Teamet</strong>
-                </h2>
-              </div>
-              <div class="card-body">
-                <p class="mb-5">
-                  <div class=" text-center">
-                    <img id="henrik" src="img/henrik.jpg" alt="Henrik" srcset="">
-                    <hr>
-                    <p class="mb-5">VD och grundare </p>
-                  </div>
+            <div class="card-body">
+              <div class="text-center">
+                <p class="card-text"></p>
+                <img id="henrik" src="img/henrik.jpg" alt="Henrik" srcset="">
+                <hr>
+                <p class="mb-5">VD och grundare </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <style>

@@ -29,11 +29,14 @@ app.get('/rena',function(req,res){
 app.get('/recept',function(req,res){
 	res.render('recept.ejs');
 });
+app.get('/blanco',function(req,res){
+	res.render('blanco.ejs');
+});
 
 // app.listen(3001, process.env.IP, function() {
 // app.listen(3001, process.env.IP, function() {
-var portSettings = process.env.PORT
-// var portSettings = 3030;
+// var portSettings = process.env.PORT
+var portSettings = 3030;
 
 app.listen(portSettings, process.env.IP, function() {
 	var appConsoleMsg = 'Hemsidan startad: ';
