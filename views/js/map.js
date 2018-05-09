@@ -1,4 +1,4 @@
-<script type="text/javascript">
+{/* <script type="text/javascript">
         jQuery(function ($) {
             function init_map1() {
                 var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
@@ -16,4 +16,4 @@
             }
             init_map1();
         });
-    </script>
+    </script> */}
