@@ -35,8 +35,8 @@ app.get('/blanco',function(req,res){
 
 // app.listen(3001, process.env.IP, function() {
 // app.listen(3001, process.env.IP, function() {
-// var portSettings = process.env.PORT
-var portSettings = 3030;
+var portSettings = process.env.PORT
+// var portSettings = 3030;
 
 app.listen(portSettings, process.env.IP, function() {
 	var appConsoleMsg = 'Hemsidan startad: ';
