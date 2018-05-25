@@ -4,9 +4,6 @@ html {
   height: 100%;
 }
 
-body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-}
 
 hr {
   max-width: 50px;
@@ -18,16 +15,10 @@ hr.light {
   border-color: #fff;
 }
 
-a {
-  color: #cccc00;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-}
+a:link, a:visited { text-decoration: none; color: black; }
 
-a:hover {
-  color: #cccc00;
-}
+a:hover, a:active { text-decoration: none; color: #cccc00; }
+
 
 h1,
 h2,
@@ -105,18 +96,6 @@ section {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
   padding: 0.5rem 1rem;
-}
-
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.btn-xl {
-  padding: 1rem 2rem;
 }
 
 .btn-primary {

@@ -305,7 +305,7 @@ header.masthead p {
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #a8a804 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -314,4 +314,8 @@ header.masthead p {
 
 #about {
   background-color: #cccc00 !important;
+}
+
+footer {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
